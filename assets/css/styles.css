@@ -15,7 +15,13 @@ ESTILOS DA PÁGINA index.html
 
 .borda {
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 20%;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.borda:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
     border: 1px solid transparent;
 }
 
@@ -37,11 +43,20 @@ ESTILOS DA PÁGINA index.html
 
 #menu li a:hover{
     color: gray;
+    font-size: 18px;
 }
 
 .arredonda {
     border-radius: 10%;
     border: 15px solid transparent;
+}
+
+.cresce:hover {
+    width: 500px;
+}
+
+.tb {
+    border-top: 20px solid transparent;
 }
 
 /* 
