@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taurus CheerLeading</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
+
+<body class="background title">
+    
+    <header class="center title">
         <h1>CheerLeading<br></h1>
         <h2>Rotina do Dia da Matrícula</h2>
     </header>
-    <nav>
-        <ol>
+
+    <nav class="center borda">
+        <ul id="menu">
             <li>
                 <a href="contato.html" target="">Contato</a>
             </li>
@@ -25,38 +31,60 @@
             <li>
                 <a href="#video" target="">Rotina de 2017</a>
             </li>
-        </ol> 
+        </ul>
     </nav>
-    <section id="participantes">
-        <h3>Participantes</h3>
-        <img src="./assets/img/WhatsApp Image 2022-03-14 at 13.02.51.jpeg" 
-        alt="Foto com os atletas pariticipantes."
-        width="500" height="375">
-        <p>
-            Atletas presentes na apresentação de Dia da Matrícula na EACH-USP.
-        </p>
+
+    <section id="participantes" class="container">
+        <div>
+            <img src="./assets/img/WhatsApp Image 2022-03-14 at 13.02.51.jpeg" 
+                alt="Foto com os atletas pariticipantes."
+                width="450"
+                class="arredonda">
+        </div>
+        <div>
+            <h3>Participantes</h3>
+            <p>
+                Atletas presentes na apresentação de Dia da Matrícula na EACH-USP.
+            </p>
+        </div>
+
     </section>
+
     <br>
-    <section id="piramide">
-        <h3>Piramide</h3>
-        <img src="./assets/img/piramide.jpg" 
-        alt="Piramide realizada durante a apresentação."
-        width="408" height="434">
-        <p>
-            Piramide realizada durante a apresentação.
-        </p>
+
+    <section id="piramide" class="container">
+        <div>
+            <img src="./assets/img/piramide.jpg" 
+            alt="Piramide realizada durante a apresentação." 
+            width="450"
+            class="arredonda">
+        </div>
+        <div>
+            <h3>Piramide</h3>
+            <p>
+                Piramide realizada durante a apresentação.
+            </p>
+        </div>
+
     </section>
+
     <br>
+
     <section id="video">
         <h3>Rotina de 2017</h3>
-        <iframe width="420" height="315"
-        src="https://www.youtube.com/watch?v=-g7RphVMvx8">
+        <iframe width="450" src="https://www.youtube.com/watch?v=-g7RphVMvx8">
         </iframe>
         <p>
             Rotina de 2017.
         </p>
     </section>
-    
+
+    <footer>
+        <p class="center">
+            Taurus Cheerleading &copy;
+        </p>
+    </footer>
 
 </body>
+
 </html>

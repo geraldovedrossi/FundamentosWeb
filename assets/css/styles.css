@@ -1,0 +1,49 @@
+/* 
+ESTILOS DA PÁGINA index.html
+*/
+
+.background {
+    background-image: linear-gradient(red, yellow);
+}
+
+.title {
+    font-family: 'Chela One', cursive
+}
+.center {
+    text-align: center;
+}
+
+.borda {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20%;
+    border: 1px solid transparent;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+}
+
+#menu li {
+    display: inline;
+    padding: 30px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color: gray;
+}
+
+.arredonda {
+    border-radius: 10%;
+    border: 15px solid transparent;
+}
+
+/* 
+ESTILOS DA PÁGINA contato.html
+*/
